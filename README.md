@@ -1,3 +1,3 @@
 # Todo-App-Com-Redux
  
-ReactJS + Bootstrap, projeto do curso da Cod3r(React+Redux)
+Esse projeto foi feito com o intuito de aprendizado, utilizando ReactJS + Redux + Bootstrap.
