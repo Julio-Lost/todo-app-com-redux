@@ -14,7 +14,7 @@
     "body-parser": "1.15.2",
     "express": "4.14.0",
     "mongoose": "4.7.0",
-    "node-restful": "0.2.5",
+    "node-restful": "0.2.6",
     "pm2": "2.1.5"
   },
   "devDependencies": {
