@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/frontend"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: increase-if-necessary
+  ignore:
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+- package-ecosystem: npm
+  directory: "/backend"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: increase-if-necessary
+  ignore:
+  - dependency-name: pm2
+    versions:
+    - 4.5.1
+    - 4.5.4
+    - 4.5.5
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
